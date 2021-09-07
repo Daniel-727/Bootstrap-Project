@@ -3,7 +3,7 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    font-family: 'Glory', sans-serif;
 }
 
 h2 {
@@ -21,7 +21,7 @@ header h2{
 
 .jumbotron{
     padding: 30px;
-    background-image: linear-gradient(to right, #5637DD, #3046C5, #601068);
+    background-color:#150811;
     color:white;
     margin: 0;
 }
@@ -33,7 +33,7 @@ header h2{
 }
 
 .navbar {
-    background-color: #901CAD;
+    background-color: #150811;
 }
 
 .tab-content{
@@ -47,5 +47,18 @@ header h2{
 }
 
 .carousel {
-    border: solid #5637DD;
+    border: solid #150811;
+}
+
+.btn-lg{
+    background-color:#F46036;
+    color:white;
+}
+
+.card{
+    background-color: #F46036;
+}
+
+.card-header{
+    background-color: #150811;
 }
