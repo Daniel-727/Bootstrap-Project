@@ -1,10 +1,20 @@
-$('#myModal').on('shown.bs.modal', function () {
-    $('#myInput').trigger('focus')
-})
+// $('#myModal').on('shown.bs.modal', function () {
+//     $('#myInput').trigger('focus')
+// });
 
-/* script below is for carousel pause and play buttons */
+
 
 $(function() {
+
+    $("#reserveButton").click(function() {
+        $("#reserveModal").modal("show");
+    });
+
+    $("#loginButton").click(function(){
+        $("#loginModal").modal("show");
+    });
+
+
     $(".carousel").carousel( { interval: 2000 } );
     $("#carouselButton").click(function(){
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
@@ -18,3 +28,4 @@ $(function() {
         }
     });
 });
+
